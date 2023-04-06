@@ -1,6 +1,3 @@
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
-import axios from "axios";
-
 export default class Youtube {
   constructor(apiClient) {
     this.apiClient = apiClient;
